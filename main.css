@@ -1,0 +1,38 @@
+html * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.gen {
+  margin: 10px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.recommended {
+  display: grid;
+  text-align: center;
+}
+
+.recommended > hr {
+  width: 100%;
+}
+
+.end-of-page {
+  display: flex;
+  justify-content: space-evenly;
+}
