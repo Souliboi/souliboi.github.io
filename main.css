@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .main-title {
@@ -17,6 +18,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .gen {
@@ -36,10 +38,15 @@ body {
 
 hr {
   width: 100%;
+  border: none;
+  height: 1px;
+  background-color: rgb(3, 3, 3);
 }
 
 .end-of-page {
   margin-top: auto;
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
 }
