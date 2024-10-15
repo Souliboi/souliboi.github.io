@@ -1,6 +1,6 @@
 const creditModalJs = document.getElementById("credit-modal-id");
 const creditBtn = document.getElementById("credit-id");
-const creditExit = document.getElementsByClassName("credit-close")[0];
+const creditExit = document.getElementById("credit-close");
 
 creditBtn.onclick = function() {
   creditModalJs.style.display = "block";
@@ -20,7 +20,7 @@ window.onclick = function(event) {
 
 const wikiModalJs = document.getElementById("wiki-db-modal-id");
 const wikiBtn = document.getElementById("wiki-db-id");
-const wikiExit = document.getElementsByClassName("wiki-db-close")[0];
+const wikiExit = document.getElementById("wiki-db-close");
 
 wikiBtn.onclick = function() {
   wikiModalJs.style.display = "block";
