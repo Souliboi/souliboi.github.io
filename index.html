@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link href="./main.css" rel="stylesheet">
-    <script src="./main.js" defer></script>
+    <link href="/main.css" rel="stylesheet">
+    <script src="/main.js" defer></script>
+    <script src="lib/htmx/htmx.min.js" defer></script>
   </head>
   <body>
     <div id="credit-modal-id" class="credit-modal">
@@ -68,12 +69,13 @@
     </div>
     <hr>
       <div class="menu-bar">
-        <h2 class="gen"><a href="./gen/first.html" target="_blank">First Gen</a></h2>
-        <h2 class="gen"><a href="./gen/second.html" target="_blank">Second Gen</a></h2>
-        <h2 class="gen"><a href="./gen/third.html" target="_blank">Third Gen</a></h2>
-        <h2 class="gen"><a href="./gen/fourth.html" target="_blank">Fourth Gen</a></h2>
-        <h2 class="gen"><a href="./gen/fifth.html" target="_blank">Fifth Gen</a></h2>
+        <button class="gen" hx-get="/gen/first.html" hx-target="#gen-body">First Gen</button>
+        <button class="gen" hx-get="/gen/second.html" hx-target="#gen-body">Second Gen</button>
+        <button class="gen" hx-get="/gen/third.html" hx-target="#gen-body">Third Gen</button>
+        <button class="gen" hx-get="/gen/fourth.html" hx-target="#gen-body">Fourth Gen</button>
+        <button class="gen" hx-get="/gen/fifth.html" hx-target="#gen-body">Fifth Gen</button>
       </div>
+      <div id="gen-body"></div>
     <hr>
       <div class="recommended">
           <h4>Most commonly used tools for various generations</h4>
