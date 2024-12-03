@@ -62,6 +62,18 @@ hr {
 }
 
 /*          */
+/*  tables  */
+/*          */
+
+.table-main {
+  width: 100%;
+}
+
+.table-dest {
+  text-align: right;
+}
+
+/*          */
 /*  popups  */
 /*          */
 
